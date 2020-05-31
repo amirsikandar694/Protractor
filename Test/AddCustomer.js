@@ -17,7 +17,6 @@ describe("Add Customer to the banking application",function(){
         AddCustomerPage.postCode_Textbox_Type("412114");
         AddCustomerPage.AddCustomer_Button_Click();
         Wait.waitTime(2000);
-        let acpt=browser.switchTo().alert();
-        acpt.accept();
+        browser.switchTo().alert().accept();
     })
 });
