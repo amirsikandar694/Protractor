@@ -19,6 +19,5 @@ describe("Add Customer to the banking application",function(){
         Wait.waitTime(2000);
         let acpt=browser.switchTo().alert();
         acpt.accept();
-        Wait.waitTime(2000); 
     })
 });
