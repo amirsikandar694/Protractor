@@ -4,7 +4,7 @@ let AddCustomerPage=require('../PageObject/AddCustomerPage');
 let Wait=require('../Utilities/Wait');
 const { waitTime } = require('../Utilities/Wait');
 
-describe("Add Customer to the banking application",function(){
+describe("Add Customer to banking app",function(){
 
     it("Add new cutomer",function(){
         console.log("Launch Browser");
