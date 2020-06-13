@@ -1,12 +1,11 @@
-let homepage=require('../PageObject/HomePage')
-let BankManagerPage=require('../PageObject/BankManagerPage')
+let homepage=require('../PageObject/HomePage');
+let BankManagerPage=require('../PageObject/BankManagerPage');
 let AddCustomerPage=require('../PageObject/AddCustomerPage');
 let Wait=require('../Utilities/Wait');
-const { waitTime } = require('../Utilities/Wait');
 
 describe("Add Customer to banking app",function(){
 
-    it("Add new cutomer",function(){
+    it("Add new customer",function(){
         console.log("Launch Browser");
         browser.get('http://www.way2automation.com/angularjs-protractor/banking/#/login');
         browser.driver.manage().window().maximize();
